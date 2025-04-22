@@ -1,0 +1,43 @@
+.qodo
+
+# XAMPP files
+/xampp/
+/htdocs/
+/tmp/
+/logs/
+
+# PHP
+*.log
+*.cache
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Composer
+/vendor/
+composer.lock
+
+# Node
+/node_modules/
+package-lock.json
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Cache
+/cache/
+/temp/
